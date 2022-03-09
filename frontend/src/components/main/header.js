@@ -1,9 +1,7 @@
 import "./header.css";
 import { NavLink } from "react-router-dom";
-  
 
 const Header = (props) => {
-  
   return (
     <nav className="navbar navbar-expand-lg navbar navbar-dark bg-dark">
       <div className="container-fluid">
@@ -24,7 +22,11 @@ const Header = (props) => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item active">
-              <NavLink className="nav-link" aria-current="page" to="/main/login">
+              <NavLink
+                className="nav-link"
+                aria-current="page"
+                to="/main/login"
+              >
                 Login
               </NavLink>
             </li>
@@ -32,17 +34,18 @@ const Header = (props) => {
               <NavLink
                 className="nav-link active"
                 aria-current="page"
-                to="/main/home">
+                to="/main/home"
+              >
                 Home
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
-                className="nav-link active"
+                className="nav-link"
                 aria-current="page"
                 to="/main/signup"
               >
-                 signup
+                signup
               </NavLink>
             </li>
             <li className="nav-item">
@@ -51,7 +54,7 @@ const Header = (props) => {
                 aria-current="page"
                 to="/main/resetPassword"
               >
-                 resetPassword
+                resetPassword
               </NavLink>
             </li>
           </ul>
