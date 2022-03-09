@@ -32,8 +32,7 @@ const Header = (props) => {
               <NavLink
                 className="nav-link active"
                 aria-current="page"
-                to="/main/home"
-              >
+                to="/main/home">
                 Home
               </NavLink>
             </li>
