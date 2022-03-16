@@ -23,7 +23,7 @@ const Header = (props) => {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item active">
               <NavLink
-                className="nav-link"
+                className="nav-link active primary"
                 aria-current="page"
                 to="/main/login"
               >
@@ -41,11 +41,11 @@ const Header = (props) => {
             </li>
             <li className="nav-item">
               <NavLink
-                className="nav-link"
+                className="nav-link active"
                 aria-current="page"
                 to="/main/signup"
               >
-                signup
+                Sign-Up
               </NavLink>
             </li>
             <li className="nav-item">
@@ -54,7 +54,16 @@ const Header = (props) => {
                 aria-current="page"
                 to="/main/resetPassword"
               >
-                resetPassword
+                ResetPassword
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className="nav-link active"
+                aria-current="page"
+                to="/user/ addNovels"
+              >
+                 AddNovels
               </NavLink>
             </li>
           </ul>

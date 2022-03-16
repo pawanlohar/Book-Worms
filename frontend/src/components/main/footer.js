@@ -19,10 +19,9 @@ const Footer = (props) => {
          <li className="nav-item">
            <a href="#" className="nav-link px-2 text-muted">Home</a>
          </li>
-
-         
-          
-
+         <li className="nav-item">
+           <a href="#" className="nav-link px-2 text-muted">Home</a>
+         </li>
        </ul>
 
      </footer>
